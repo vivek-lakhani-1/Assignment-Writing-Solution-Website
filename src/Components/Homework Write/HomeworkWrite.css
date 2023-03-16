@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.bckcolor--homework {
+  background: #eaf3f9;
+  margin-bottom: 18rem;
+}
+
+.home-head-margin {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.home-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.05em;
+
+  color: white;
+}
+
+.fa-solid {
+  color: white;
+  font-size: 25px;
+}
+
+.homework-card {
+  background: linear-gradient(
+    232.68deg,
+    #2dd1db -8.55%,
+    #2d9cdb 57.36%,
+    #1a8ed0 100%
+  );
+  /* blueshade */
+
+  box-shadow: 0px 12px 24px 4px rgba(10, 61, 89, 0.3);
+  border-radius: 16px;
+  padding-top: 20%;
+  height: 25vh;
+  width: auto;
+}
+
+.home-head {
+  /* Heading2 */
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 125%;
+  /* identical to box height, or 30px */
+
+  text-align: center;
+  letter-spacing: 0.05em;
+
+  /* 11 */
+
+  background: linear-gradient(
+    232.68deg,
+    #2dd1db -8.55%,
+    #2d9cdb 57.36%,
+    #1a8ed0 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.homework--serPara {
+  /* Body2 */
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 136%;
+  /* or 19px */
+
+  text-align: center;
+  letter-spacing: 0.05em;
+
+  /* txtlight */
+
+  color: #565d5c;
+}
+
+.homework--serPara--bold {
+  /* Subheading2 */
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 110%;
+  /* identical to box height, or 20px */
+
+  text-align: center;
+  letter-spacing: 0.05em;
+
+  /* txtlight */
+
+  color: #565d5c;
+}
+
+.upper--text {
+  margin-bottom: 5rem;
+}
+
+.homework--benefits {
+  /* Heading2 */
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 125%;
+  /* identical to box height, or 30px */
+
+  text-align: center;
+  letter-spacing: 0.05em;
+
+  /* 11 */
+
+  background: linear-gradient(
+    232.68deg,
+    #2dd1db -8.55%,
+    #2d9cdb 57.36%,
+    #1a8ed0 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+
+  margin-bottom: 4rem;
+}
+
+#hwcode {
+  display: flex !important;
+  justify-content: center !important;
+  width: 100%;
+}
+.hwimg {
+  max-width: 20%;
+  height: auto;
+}
+
+.card-container6 {
+  position: relative;
+  width: auto;
+  perspective: 200rem;
+  height: auto;
+  background: #eaf3f9;
+}
+
+.card-container6:hover .card-front {
+  transform: rotateY(180deg);
+}
+
+.card-container6:hover .card-back {
+  transform: rotateY(0deg);
+}
+
+.card-back {
+  transform: rotateY(180deg);
+}
+
+.flip-flop-card {
+  position: absolute;
+
+  transition: all 0.9s;
+  backface-visibility: hidden;
+}
+
+.card-front {
+  height: 180px;
+  width: 180px;
+}
+
+.card-back {
+  width: 190px;
+  height: 250px;
+}
+
+.card-desc {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+
+  color: #ffffff;
+  cursor: default;
+}
+
+.homework-card-back {
+  background: linear-gradient(
+    232.68deg,
+    #2dd1db -8.55%,
+    #2d9cdb 57.36%,
+    #1a8ed0 100%
+  );
+  border-radius: 12px;
+}
+
+.back--body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

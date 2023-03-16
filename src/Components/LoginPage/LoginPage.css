@@ -1,0 +1,17 @@
+.login--div {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: black;
+}
+
+.login--left {
+  float: left;
+  width: 50%;
+  background-color: green;
+}
+.login--right {
+  float: right;
+  width: 50%;
+  background-color: red;
+}

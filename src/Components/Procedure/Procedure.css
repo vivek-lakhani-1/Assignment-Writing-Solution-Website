@@ -1,0 +1,106 @@
+.procedure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.procedure-heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 1488px;
+}
+
+.procedure-heading--text {
+  /* Heading2 */
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 125%;
+  /* identical to box height, or 30px */
+
+  letter-spacing: 0.05em;
+
+  /* bluee */
+  text-align: center !important;
+  color: #2d9cdb;
+}
+.procedure-line-container {
+  position: relative;
+  margin-top: 96px;
+  width: 1147px;
+  height: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid;
+  border-color: rgba(45, 209, 219, 1) rgba(45, 156, 219, 1)
+    rgba(26, 142, 208, 1);
+}
+.procedure-line {
+  width: 1147px;
+  height: 16px;
+  background: linear-gradient(
+    232.68deg,
+    #2dd1db -8.55%,
+    #2d9cdb 57.36%,
+    #1a8ed0 100%
+  );
+  transition: width 3s ease-in;
+}
+
+.step {
+  position: absolute;
+  box-sizing: border-box;
+  width: 48px;
+  height: 48px;
+  background: #eaf3f9;
+  border: 4px solid;
+  border-color: rgba(45, 209, 219, 1) rgba(45, 156, 219, 1)
+    rgba(26, 142, 208, 1);
+  border-radius: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.s1 {
+  left: -3%;
+}
+.s2 {
+  left: 48%;
+}
+.s3 {
+  left: 99%;
+}
+.step span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 110%;
+  letter-spacing: 0.05em;
+  background: linear-gradient(
+    232.68deg,
+    #2dd1db -8.55%,
+    #2d9cdb 57.36%,
+    #1a8ed0 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.procedurecard-card-container {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #eaf3f9;
+}

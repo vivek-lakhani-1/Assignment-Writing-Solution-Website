@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.bckcolor {
+  background: #eaf3f9;
+}
+
+.left_div {
+  float: left;
+  width: 25%;
+  padding-top: 4rem !important;
+  display: flex;
+  justify-content: center;
+}
+.right_div {
+  float: right;
+  width: 75%;
+  padding-top: 2rem;
+  text-align: left;
+}
+
+.about-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 110%;
+
+  letter-spacing: 0.05em;
+
+  color: #ffffff;
+}
+.about-para {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 136%;
+
+  letter-spacing: 0.05em;
+
+  color: #ffffff;
+  padding-right: 1rem;
+}
+
+.about-card {
+  background: linear-gradient(
+    232.68deg,
+    #2dd1db -8.55%,
+    #2d9cdb 57.36%,
+    #1a8ed0 100%
+  );
+
+  box-shadow: 0px 12px 24px 4px rgba(10, 61, 89, 0.3);
+  border-radius: 16px;
+  padding-top: 0;
+  height: 25vh;
+  max-height: 35vh;
+  width: auto;
+}
+.aboutH21 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 110%;
+  letter-spacing: 0.05em;
+  color: #2d9cdb;
+  text-align: center;
+}
+
+.aboutH2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 110%;
+
+  letter-spacing: 0.05em;
+
+  color: #151515;
+  text-align: center;
+}
+
+.secondpadding {
+  padding-top: 3%;
+  padding-bottom: 5%;
+}
+
+.abPara2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 136%;
+
+  text-align: center;
+  letter-spacing: 0.05em;
+
+  color: #565d5c;
+}
+
+.header_containerabout {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+#headService--about {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 125%;
+
+  text-align: center;
+  letter-spacing: 0.05em;
+
+  background: linear-gradient(
+    232.68deg,
+    #2dd1db -8.55%,
+    #2d9cdb 57.36%,
+    #1a8ed0 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+
+  margin-top: 1%;
+}
+#headService--about58 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 125%;
+
+  text-align: center;
+  letter-spacing: 0.05em;
+
+  background: linear-gradient(
+    232.68deg,
+    #2dd1db -8.55%,
+    #2d9cdb 57.36%,
+    #1a8ed0 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.Aboutcard123-heading--background {
+  position: absolute;
+  top: 0%;
+  left: 36%;
+  width: 319px;
+  height: 45px !important;
+  opacity: 0.55;
+  z-index: -999;
+
+}
+
+.header_ser_container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  padding-top: 7% !important;
+  overflow: hidden;
+}
+
+#Aboutcard-Sheading--background58 {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  opacity: 0.55;
+  width: 450px;
+  height: 70px;
+  z-index: -1;
+}
+
+.Ssmain-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: left;
+  letter-spacing: 0.05em;
+
+  color: black;
+  margin-top: -5%;
+}
+
+.card-paraSs3 {
+  text-align: left;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 136%;
+  letter-spacing: 0.05em;
+  color: #565d5c;
+}
+
+#imgcss {
+  height: 10vh;
+  width: auto;
+}
+
+.Ssmain-card {
+  background: transparent;
+  border-color: #2d9cdb;
+  border-top: 1rem;
+  border-right: 1rem;
+  border-bottom: 1rem;
+  border-width: 0.3em;
+  border-radius: 0;
+  padding-top: 1em;
+  height: 18vh;
+  max-height: 35vh;
+  width: auto;
+}
+
+.about-padd {
+  padding-bottom: 5%;
+}
+
+.Ssmain3-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 110%;
+  letter-spacing: 0.05em;
+  color: #2d9cdb;
+  text-align: left;
+  margin-top: -5%;
+}

@@ -1,0 +1,25 @@
+.WriterProfilePage--container {
+  display: flex;
+  flex-direction: row;
+  margin: 2rem 5rem;
+}
+
+.WriterProfilePage--container--left {
+  float: left;
+  width: 75%;
+}
+
+.WriterProfilePage--container--right {
+  float: right;
+  width: 25%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.refer--refer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+}

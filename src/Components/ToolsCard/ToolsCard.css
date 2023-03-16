@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.bckcolor {
+  background: #eaf3f9;
+}
+
+#SingleToolCard--img--box {
+  display: flex !important;
+  justify-content: center !important;
+  width: 100%;
+  margin-top: 2rem;
+}
+.SingleToolCard--img {
+  width: 48px !important;
+  height: 48px !important;
+}
+
+.tool--card--box:hover {
+  background: #ffffff;
+
+  box-shadow: 0px 12px 24px 4px rgba(10, 61, 89, 0.3);
+  border-radius: 12px;
+  transform: scale(1.025);
+  transition: all 0.4s ease-out;
+}
+
+.SingleToolCard-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 125%;
+
+  text-align: center;
+  letter-spacing: 0.05em;
+
+  background: linear-gradient(
+    232.68deg,
+    #2dd1db -8.55%,
+    #2d9cdb 57.36%,
+    #1a8ed0 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  height: 7vh;
+  max-height: 15vh;
+}
+
+.SingleToolCard-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.05em;
+
+  color: #565d5c;
+  height: 20vh;
+  max-height: 30vh;
+}
+
+.SingleToolCard--btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 24px;
+  gap: 8px;
+
+  background: linear-gradient(
+    232.68deg,
+    #2dd1db -8.55%,
+    #2d9cdb 57.36%,
+    #1a8ed0 100%
+  );
+
+  box-shadow: 0px 0px 13.0909px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  transition: transform 0.2s;
+  color: #ffffff;
+}
+
+.SingleToolCard--btn:hover {
+  transform: scale(1.05);
+}
+
+.ToolCard--head {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 125%;
+  text-align: center;
+  letter-spacing: 0.05em;
+
+  background: linear-gradient(
+    232.68deg,
+    #2dd1db -8.55%,
+    #2d9cdb 57.36%,
+    #1a8ed0 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}

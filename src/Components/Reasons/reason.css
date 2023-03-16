@@ -1,0 +1,45 @@
+:root {
+    --primaryText: linear-gradient(232.68deg, #2DD1DB -8.55%, #2D9CDB 57.36%, #1A8ED0 100%);
+    --white: #ffffff;
+  }
+.reason{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:   #EAF3F9;
+}
+
+.reasons-main-heading-container{
+    margin-top: 4rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.reasons-main-heading {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 125%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    background: linear-gradient(232.68deg, #2DD1DB -8.55%, #2D9CDB 57.36%, #1A8ED0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.reasons-background{
+    position:absolute;
+    top: -40%;
+    width: 38rem;
+    height: 4.375rem;
+    opacity: 0.55;
+}
+.reasons-card-container{
+    margin-left: 8%;
+    margin-top: 6.7%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 2%;
+    row-gap: 3%;
+}

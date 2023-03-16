@@ -1,0 +1,139 @@
+:root {
+    --primarygrad: linear-gradient(232.68deg, #2DD1DB -8.55%, #2D9CDB 57.36%, #1A8ED0 100%);
+    --text: #151515;
+}
+
+.landing1 {
+    width: 100%;
+    height: 106.42vh;
+    background: url("../../assets/Landing/background.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    display: flex;
+    margin-bottom: -4%;
+}
+
+.landing-text {
+    position: absolute;
+    left: 8%;
+    top: 25%;
+    cursor: context-menu;
+}
+
+.landing-text--heading {
+    width: 60%;
+    height: 60px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 125%;
+    letter-spacing: 0.05em;
+    color: var(--text);
+}
+
+.grad-span {
+    background: var(--primarygrad);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.landing-text--subtitle {
+    margin-top: 0.813rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    color: #565D5C;
+}
+
+
+.landing-get-quote {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 8px;
+    position: absolute;
+    width: 160px;
+    border: none;
+    height: 43px;
+    left: 120px;
+    top: 330px;
+    background: linear-gradient(232.68deg, #2DD1DB -8.55%, #2D9CDB 57.36%, #1A8ED0 100%);
+    box-shadow: 0px 8px 22px rgba(17, 23, 27, 0.2);
+    border-radius: 8px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #F5FFFA;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.landing-warning {
+    position: absolute;
+    height: 18px;
+    left: 7.9%;
+    top: 94.5%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.78125vw;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    text-decoration-line: underline;
+    color: #3678F1;
+}
+
+.display-none{
+    display: none;
+}
+
+@media (max-width: 428px) {
+    .landing1 {
+        max-width: 428px;
+        height: 468px;
+        background: url("../../assets/Landing/background-mobile.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .landing-hero {
+        position: absolute;
+        width: 396px;
+        height: 172px;
+        top: 392.5px;
+        left: -12px;
+    }
+
+    .landing-text--heading {
+        width: 396px;
+        height: 172px;
+        font-weight: 600;
+        font-size: 34px;
+        line-height: 125%;
+    }
+    .landing-text--subtitle{
+        margin-top: 16px;
+        width: 396px;
+        height: 60px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .landing-get-quote{
+        width: 194px;
+        height: 44px;
+        left: 33px;
+        font-size: 16px;
+    }
+}

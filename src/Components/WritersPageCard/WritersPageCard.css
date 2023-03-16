@@ -1,0 +1,352 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.card-container {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+.card {
+  border: none;
+  margin: 2rem 0;
+  border-radius: 12px;
+  margin-bottom: -10px;
+  
+}
+.card:hover {
+  box-shadow: 0px 12px 24px 4px rgba(10, 61, 89, 0.3);
+  transform: scale(1.05);
+  border: none;
+  transition: 0.5s all ease;
+}
+.writercard-container {
+  margin: 0rem 6rem 0rem;
+}
+
+.bckcolor {
+  background: #eaf3f9;
+}
+
+#WriterCardx--img--box {
+  display: flex !important;
+  justify-content: center !important;
+  width: 100%;
+  margin-top: 1rem;
+  
+}
+.WriterCardx--img {
+  max-width: 80px !important;
+  height: 80px !important;
+  width: 80px !important;
+  border-radius: 50%;
+  object-fit: cover;
+    object-position: center;
+}
+
+.WriterCardx-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #2d9cdb;
+}
+
+.WriterCardx-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #565d5c;
+  height: 20vh;
+  max-height: 30vh;
+}
+.button--div--writer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.WriterCardx--btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 40% !important;
+  align-items: center;
+  padding: 2%;
+  background: linear-gradient(
+    232.68deg,
+    #2dd1db -8.55%,
+    #2d9cdb 57.36%,
+    #1a8ed0 100%
+  );
+  box-shadow: 0px 0px 13.0909px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  border: hidden;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  transition: transform 0.2s;
+
+  color: #ffffff;
+  font-size: 10px;
+
+}
+
+.WriterCardx--btn:hover {
+  transform: scale(1.1);
+}
+
+.ToolCard--head {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 125%;
+  text-align: center;
+  letter-spacing: 0.05em;
+  background: linear-gradient(
+    232.68deg,
+    #2dd1db -8.55%,
+    #2d9cdb 57.36%,
+    #1a8ed0 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.WriterCardx--nameDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: -1rem;
+}
+/* .name--center{
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+} */
+.WriterCardx-title {
+  float: left;
+  margin: 0;
+}
+.Wverified--tick {
+  float: right;
+  padding-left: 4%;
+}
+
+.WriterCardx-role {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #2d9cdb;
+  height: 5vh;
+}
+
+/* .WriterCardx-review{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} */
+.WriterCardx-review--star {
+  text-align: center;
+  font-size: 8px;
+}
+.WriterCardx-review{
+  margin-top: -15px;
+}
+.WriterCardx-review-count {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #2d9cdb;
+  margin-top: -15%;
+}
+
+.WriterCardx--speciality--box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 5%;
+}
+
+.WriterCardx--Writer--speciality {
+  /* font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 119.5%;
+    
+    
+    text-align: center;
+    letter-spacing: 0.05em;
+    
+   
+    
+    color: #2D9CDB; */
+
+  border-style: solid;
+  border-width: 0.5px;
+  border-color: #2d9cdb;
+  border-left: hidden;
+  border-top: hidden;
+  border-bottom: hidden;
+  padding: 0.25rem;
+}
+.WriterCardx--Writer--speciality1 {
+  /* font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 119.5%;
+    
+    
+    text-align: center;
+    letter-spacing: 0.05em;
+    
+  
+    
+    color: #2D9CDB; */
+
+  border-style: solid;
+  border-width: 0.5px;
+  border-color: #2d9cdb;
+  border-left: hidden;
+  border-top: hidden;
+  border-bottom: hidden;
+  padding: 0.25rem;
+}
+.WriterCardx--Writer--speciality2 {
+  /* font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 119.5%;
+  
+    
+    text-align: center;
+    letter-spacing: 0.05em;
+    
+    
+    
+    color: #2D9CDB; */
+
+  border: hidden;
+  padding: 0.25rem;
+}
+
+.speciality {
+  display: flex;
+  flex-direction: column;
+  width: 80px;
+}
+
+.WriterCardx--Writer--speciality,
+.WriterCardx--Writer--speciality1,
+.WriterCardx--Writer--speciality2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 110%;
+
+  text-align: center;
+  letter-spacing: 0.05em;
+
+  background: linear-gradient(
+    232.68deg,
+    #2dd1db -8.55%,
+    #2d9cdb 57.36%,
+    #1a8ed0 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.WriterCardx--speciality--bold--text {
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.05em;
+  color: #2d9cdb;
+  padding: 0.5rem;
+}
+
+.user {
+  border: 2px solid #2d9cdb;
+  border-radius: 10px;
+  background-color: #b3e3ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 500px;
+  height: 300px;
+  margin: 20px;
+}
+
+.paginationBttns {
+  margin-top: 4rem;
+  width: 100%;
+  height: 40px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+
+.paginationBttns a {
+  color: white;
+  border-radius: 2px;
+
+  padding: 10px;
+  margin: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  border: none;
+}
+
+.paginationBttns a:hover {
+  color: white;
+}
+
+.paginationActive a {
+  color: white;
+  background: #2d9cdb;
+  border-radius: 50%;
+}
+
+.paginationDisabled a {
+  color: #eaf3f9 !important;
+  background-color: #eaf3f9 !important;
+}
+
+.arrow--hai--pagination {
+  color: #2d9cdb !important;
+  font-size: 25px !important;
+}
+.mygrid{
+  display: grid;
+  grid-auto-flow: column;
+  column-count: 4;
+}

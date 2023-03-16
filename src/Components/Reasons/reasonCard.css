@@ -1,0 +1,39 @@
+.reason-card {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    height: 6.5rem;
+    width: 36rem;
+}
+
+.reason-card-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card-count-nummber {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 125%;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: rgba(45, 156, 219, 1);
+}
+
+.card-heading-text{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 110%;
+    letter-spacing: 0.05em;
+    color: #151515;
+    margin-left: .5rem;
+}
+.card-para-text {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 136%;
+    letter-spacing: 0.05em;
+    color: #363E3D;
+    margin-top: -1.5%;
+}

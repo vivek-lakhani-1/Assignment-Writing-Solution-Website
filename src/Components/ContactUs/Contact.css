@@ -1,0 +1,246 @@
+.contact-container {
+  margin: 0 12rem;
+}
+.supportcard-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact-header {
+  margin: 35px 0;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  line-height: 125%;
+  text-align: center;
+  letter-spacing: 0.05em;
+  background: linear-gradient(
+    232.68deg,
+    #2dd1db -8.55%,
+    #2d9cdb 57.36%,
+    #1a8ed0 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  width: 100%;
+}
+
+.contact-bg-header {
+  width: 30%;
+  height: 70px;
+  position: absolute;
+  top: -30%;
+  opacity: 0.6;
+  z-index: -1;
+}
+
+/* For Support Card */
+.support-card {
+  width: 18rem;
+  border-radius: 16px;
+}
+.card-img-container {
+  top: -20%;
+  left: 36%;
+  width: auto;
+  padding: 20px;
+  background: #ffffff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  position: absolute;
+}
+.card-img {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+}
+.support-card-body {
+  text-align: center;
+}
+.support-card-title {
+  margin-top: 25%;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 110%;
+  text-align: center;
+  letter-spacing: 0.05em;
+  background: linear-gradient(
+    232.68deg,
+    #2dd1db -8.55%,
+    #2d9cdb 57.36%,
+    #1a8ed0 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.support-card-text {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #565d5c;
+}
+.support-link {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(
+    232.68deg,
+    #2dd1db -8.55%,
+    #2d9cdb 57.36%,
+    #1a8ed0 100%
+  );
+  border-radius: 0px 0px 16px 16px;
+}
+.card-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+  height: 50px;
+}
+.card-link:hover {
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+}
+.fa-chevron-right {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  margin: 10px;
+}
+
+/* ContactCard styling */
+.contactcard-container{
+  margin: 5rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contactcard-container-wrapper {
+  width: 18rem;
+  padding: 1rem;
+  text-align: center;
+}
+.contactcard-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 110%;
+  letter-spacing: 0.05em;
+  color: #2d9cdb;
+}
+
+.contactcard-content {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 136%;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #565d5c;
+}
+
+.contacts{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contacts-details {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  color: #2d9cdb;
+}
+
+.contacts-img{
+  display: flex;
+  margin: 0 5px;
+}
+
+.img-icon{
+  cursor: pointer;
+}
+
+/* Location Styles */
+.location-container{
+  position: relative;
+}
+.world-img{
+  width: 100%;
+}
+
+.location-card-container{
+  width: 100%;
+  top: 0;
+  position: absolute;
+  margin: 5rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.locationcard-container-wrapper {
+  width: 19rem;
+  padding: 1rem;
+}
+.locationcard-title {
+  position: absolute;
+  left: 43%;
+  top: 10%;
+  text-align: center;
+  /* margin: 3rem 0; */
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 110%;
+  letter-spacing: 0.05em;
+  color: #2d9cdb;
+}
+.location-subheading{
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 136%;
+  text-align: left;
+  letter-spacing: 0.05em;
+  color: #565d5c;
+}
+
+.locationcard-content {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 136%;
+  text-align: left;
+  letter-spacing: 0.05em;
+  color: #565d5c;
+}
+
+.locations{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.locations-details {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  color: #2d9cdb;
+}
+
+.locations-img{
+  display: flex;
+  margin: 0 15px 65px 0;
+}
+
+.location-img-icon{
+  width: 25px;
+  cursor: pointer;
+}

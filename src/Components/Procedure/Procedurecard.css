@@ -1,0 +1,64 @@
+.procedurecard{
+    /* width: 85.51724137931035vw; */
+    width: 78.125vw;
+    height: 27.45098039215686vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background: linear-gradient(232.68deg, #2DD1DB -8.55%, #2D9CDB 57.36%, #1A8ED0 100%);
+    box-shadow: 0px 0px 32px 11px rgba(32, 115, 163, 0.3);
+    border-radius: 24px;
+    transition: 1s all ease-in-out;
+}
+
+.step-num--text {
+   /* Subheading2 */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 110%;
+/* identical to box height, or 20px */
+
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #FFFFFF;
+/* margin-top: -3%; */
+}
+
+.step-des--text {
+  /* Heading2 */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 125%;
+/* identical to box height, or 30px */
+
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #FFFFFF;
+padding: 2%;
+}
+
+.step-para--text {
+   /* Body2 */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 136%;
+/* or 19px */
+
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #FFFFFF;
+height: 5vh;
+}

@@ -1,0 +1,37 @@
+.refferal-heading1--container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+
+  }
+
+  .refferal-main {
+    display: flex;
+    flex-direction: column;
+    top: -50px;
+    padding: 2rem;
+  }
+  
+
+  .refferal-heading1--text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 125%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    background: linear-gradient(232.68deg, #2DD1DB -8.55%, #2D9CDB 57.36%, #1A8ED0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .refferal-heading1--background{
+    position: absolute;
+    top: -42.2%;
+    opacity: 0.55;
+  }
